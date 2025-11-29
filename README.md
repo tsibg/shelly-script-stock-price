@@ -63,9 +63,9 @@ It turns your Shelly Gen3 device into a stock price monitor by creating virtual 
 
 ## Useful Ideas
 
-*   **Shelly Smart Control App:** Once the virtual components are created, you can view the stock price as a Virtual Device directly in the Shelly Smart Control app (https://control.shelly.cloud).
+*   **Shelly Smart Control App:** Once the virtual components are created, you can extract the stock price group as a Virtual Device directly in the Shelly Smart Control app (https://control.shelly.cloud).
 *   **Automation:** Use the price monitor for automation! You can create scenes in the Shelly app or write local scripts to trigger actions based on the price. For example, turn a light **GREEN** when the price goes up faster!
-*   **Statistics:** Since the data is stored in a Virtual Component, Shelly Smart Control automatically tracks the history. You can view charts and statistics of the stock price over time directly in the app.
-*   **Integration:** The values are exposed via the Shelly API/RPC. You can easily fetch the current price from other local devices (like an e-ink display or another microcontroller) by polling the virtual component's status.
+*   **Statistics:** Since the data is stored in a Virtual Component, Shelly Smart Control allows trcking the history. You can view charts and statistics of the stock price over time directly in the app.
+*   **Integration:** The values are exposed via the Shelly API/RPC. You can easily fetch the current price from other local devices (like an e-ink display or another microcontroller) by polling the virtual component's status or setting up a Shelly webhook.
 
 
