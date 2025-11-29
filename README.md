@@ -2,6 +2,12 @@
 
 Shelly script to monitor Stock prices as virtual components. It turns your Shelly Gen3 device into a stock price monitor. It creates virtual components on the device's UI to display the current price of a stock symbol (e.g., "SLYG.DE") and updates it every minute.
 
+## Preview
+
+| Web UI | App |
+| :---: | :---: |
+| ![Web UI](./preview/webui.png) | ![App](./preview/app.png) |
+
 **Data Source:** Yahoo Finance API (unofficial)
 
 ## Scripts
@@ -56,4 +62,5 @@ Shelly script to monitor Stock prices as virtual components. It turns your Shell
 *   **Automation:** Use the price monitor for automation! You can create scenes in the Shelly app or write local scripts to trigger actions based on the price. For example, turn a light **GREEN** when the price goes up faster!
 *   **Statistics:** Since the data is stored in a Virtual Component, Shelly Smart Control automatically tracks the history. You can view charts and statistics of the stock price over time directly in the app.
 *   **Integration:** The values are exposed via the Shelly API/RPC. You can easily fetch the current price from other local devices (like an e-ink display or another microcontroller) by polling the virtual component's status.
+
 
