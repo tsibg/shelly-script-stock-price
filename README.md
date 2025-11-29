@@ -10,6 +10,9 @@ Shelly script to monitor Stock prices as virtual components. It turns your Shell
 
 **Data Source:** Yahoo Finance API (unofficial)
 
+**Device used:** The Pill by Shelly
+
+
 ## Scripts
 
 1.  **`setup_virtual_components.js`**
