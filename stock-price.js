@@ -16,8 +16,7 @@ let DEFAULT_SYMBOL = "SLYG.DE";
  * Fetches the current stock price and updates the Shelly component.
  */
 function updateStockPrice() {
-  Shelly.call("Components.Get", { id: CONFIG.symbol_id }, function(status) {
-    
+  Shelly.call("Text.GetStatus", { id: CONFIG.symbol_id }, function(status) {   
     let symbol = (status && status.value) ? status.value : DEFAULT_SYMBOL;
     let url = "https://query1.finance.yahoo.com/v8/finance/chart/" + symbol + "?interval=1d&range=1d";
     
