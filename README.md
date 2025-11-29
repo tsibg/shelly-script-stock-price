@@ -1,6 +1,6 @@
 # Shelly Stock Price Monitor
 
-Shelly script to monitor Stock prices as virtual components. It turns your Shelly Gen2 device into a stock price monitor. It creates virtual components on the device's UI to display the current price of a stock symbol (e.g., "SLYG.DE") and updates it every minute.
+Shelly script to monitor Stock prices as virtual components. It turns your Shelly Gen3 device into a stock price monitor. It creates virtual components on the device's UI to display the current price of a stock symbol (e.g., "SLYG.DE") and updates it every minute.
 
 **Data Source:** Yahoo Finance API (unofficial)
 
