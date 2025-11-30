@@ -27,7 +27,7 @@ function updateStockPrice() {
       headers: { "User-Agent": "Mozilla/5.0" } 
     }, function(response) {
       
-      if (response.code !== 200) {
+      if (!response || response.code !== 200) {
         print("Error: HTTP", response.code);
         return;
       }
